@@ -1,0 +1,363 @@
+body {
+font-family:Arial,sans-sarif;
+padding:0px ;
+margin:0;
+}
+*{
+	box-sizing:border-box;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.figure{
+margin-left:90px;}
+
+
+div .flex-items {
+
+	font-size:1px;
+}
+
+.Photo1 {
+	height:16px;
+	width:17px;
+}
+.Photo2 {
+	height:18px;
+	width:14px;
+}
+.flex {
+	font-size:14px;
+	margin: 5px ;
+    padding: 5px;
+
+}
+
+h1 {
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:35px;
+	margin-left:26px;
+	font-family:Myriad Pro;
+	font-size:20px;
+	color:white;
+}
+#dote1{
+	color:black;
+}
+
+
+ul {
+	list-style: none;
+	display:flex;
+	flex-direction:row;
+}
+.topmenu li {
+	font-size:14px;
+	margin: 5px;
+    padding: 5px;
+
+}
+.topmenu {
+
+	display:flex;
+	display-direction:row;
+	justify-content:space-around;
+	align-items:flex-center;
+	flex-wrap:wrap;
+
+}
+div.column {
+	padding:0;
+	margin:0;
+
+}
+#dote2{
+	color:#fa5c65;
+	padding:0;
+	margin:0;
+}
+div.flex2 {
+
+
+	display:flex;
+	flex-direction:column;
+	height:300px;
+	width:400px;
+	margin-left:260px;
+	padding-top:320px;
+}
+p { width:220px;
+	font-size:20px;
+	flex-wrap:wrap;
+}
+
+.Btn {
+padding:0;
+margin:0;
+height:63px;
+width:179px;
+background-color:#fa5c65;
+border-radius:10px;
+color:white;
+text-transform: uppercase;
+margin-bottom:383px;
+text-decoration:none;
+}
+.topmenu a {
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family:Myriad Pro;
+	font-size:14px;
+	color:black;
+
+
+}
+div.second {
+
+	background:white;
+	background-size:100vh;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:baseline;
+	flex-wrap:wrap;
+
+	margin:0 auto;
+	padding-top:180px;
+	height:auto;
+
+}
+
+header {
+	background-image:url('../img/Hero Image.png')  ;
+  	height:100vh;
+  	height:1061px;
+
+}
+
+.TEXT1 {
+	padding:0;
+	margin:0;
+	margin-top:44px;
+	margin-bottom:50px;
+}
+ .BIG {
+ 	font-size:48px;
+       padding:0;
+       margin:0;
+       text-transform:uppercase;
+}
+.Element1 {
+	height:170px;
+	margin:0;
+	padding:0;
+	width:350px;
+	flex-basis:32,5%;
+	margin-left: 255px;
+}
+.Element2 {height:170px;
+	margin:0;
+	padding:0;
+	width:330px;
+	flex-basis:32,5%;
+	margin-right:40px;
+}
+.Element3 {	height:170px;
+			margin:0;
+			padding:0;
+			width:330px;
+			flex-basis:32,5%;
+          }
+
+.Title1{
+font-size:26px;
+margin-bottom: 10px;
+text-transform: uppercase;
+color:#314a5b;
+}
+.Title2{
+	font-size:26px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color:#314a5b;
+}
+.Title3{
+	font-size:26px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color:#314a5b;
+}
+.text {font-size:15px;
+	color:grey;
+	line-height:1.5;
+}
+
+.macbook {
+	margin-left: 255px;
+}
+.third {
+margin:0;
+padding:0;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items: top;
+flex-wrap:wrap;
+margin-right;
+margin:0 auto;
+height:auto;
+padding-top:100px;
+}
+.More{
+padding-top:30px;
+color:#fa5c65;
+text-transform: uppercase;
+text-decoration: none;
+}
+.portfolio {
+margin-right:350px;
+padding-top:55px;
+}
+
+.Arrow {
+	margin-left:25px;
+	font-size:26px;
+}
+.dotes {
+	color:#fa5c65;
+}
+.Title4  {
+	text-transform: uppercase;
+	font-size:40px;
+	color:#314a5b;
+}
+.content {
+font-size:16px;
+padding-top:21px;
+color:#445968;
+}
+.content2 {
+	padding-top:38px;
+	font-size:15px;
+	color:grey;
+}
+.content3 {
+	padding-top:33px;
+	font-size:15px;
+	color:grey;
+}
+.Ourteam {
+	margin-left: 255px;
+	padding-top: 51px;
+
+}
+.Title5 {
+	font-size:26px;
+	text-transform:uppercase;
+	color:#314a5b;
+}
+.content4 {
+		padding-top: 20px;
+		font-size:15px;
+		color:grey;
+}
+.Team {
+	margin-left:255px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding-top: 38px;
+}
+.Name{
+	text-transform: uppercase;
+		color:#314a5b;
+
+}
+.content5{
+	color:#fa5c65;
+	font-size:14px;
+	padding:10px 0;
+}
+.bout {
+	font-size:14px;
+	color:#9aa0ab;
+}
+.inf{
+	padding-top:14px;
+}
+.Detail {
+	padding-top: 71px;
+	margin-left:1095px;
+}
+.divider {
+	padding-top:40px;
+	color:#e6eaed;
+	margin-left:255px;
+}
+.Footer{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	padding: 40px 0;
+
+}
+.Social {
+	display:flex;
+	flex-direction:row;
+	margin-left: 235px;
+
+
+}
+.icons {
+	margin-left:20px;
+}
+.copy {
+	font-size:13px;
+	margin-right:118px;
+	color:grey;
+}
